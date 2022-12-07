@@ -1,0 +1,182 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    background-color: black;
+}
+body{
+    background-image: url(/images/backgroundone.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}    
+header{
+    display: flex;
+    align-items: center;
+}
+.cabecalho{
+    display: flex;
+    position: relative;
+    margin: 0.3rem;
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    transition: 600ms ease-in-out;
+    animation: fade 600ms ease-in-out;
+    cursor: pointer;
+}
+@keyframes fade{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.icone{
+    width: 3rem;
+    margin: 2rem;
+    cursor: pointer;
+}
+.menuprincipal{
+    margin-left: 50%;
+}
+.navmenu{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+}
+ul{
+    list-style: none;
+    transition: 600ms ease-in-out;
+}
+.menu1{
+    transition: 200ms ease-in-out;
+    position: relative;
+}
+.menu1:hover{
+    border-bottom: solid 2px white;
+    border-radius: 2px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.875);
+}
+.menu2{
+    transition: 200ms ease-in-out;
+    position: relative;
+}
+.menu2:hover{
+    border-bottom: solid 2px white;
+    border-radius: 2px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.875);
+}
+.menu3{
+    transition: 200ms ease-in-out;
+    position: relative;
+}
+.menu3:hover{
+    border-bottom: solid 2px white;
+    border-radius: 2px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.875);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    gap: 20px;
+    margin-left: auto;
+    width: 40%;
+}
+.container .titulo{
+    text-align: center;
+}
+.logosvgwhite{
+    width: 13rem;
+    transition: 2s ease-in-out;
+    animation: fa infinite 3s;
+}
+@keyframes fa{
+    0%{transform: translateY(0px);}
+    50%{transform: translateY(-10px);}
+    100%{transform: translateY(0px);}
+}
+.logosvgwhite:hover{
+    transform: translateY(0px);
+}
+.container .text{
+    font-size: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.333);
+    padding: 2rem;
+    border-radius: 4px;
+    font-family: sans-serif;
+    text-align: start;
+    transition: 600ms ease-in-out;
+}
+.container .text:hover{
+    background-color: rgba(255, 255, 255, 0.859);
+    color: black;
+    box-shadow: 0PX 0PX 8PX 2PX rgba(0, 0, 0, 0.884);
+}
+.container .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    border: solid 2px white;
+    border-radius: 4px;
+    transition: 600ms ease-in-out;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.button:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transform: translateY(-10px);
+    box-shadow: inset 0px 0px 5px 2px rgba(255, 255, 255, 0.775);
+}
+.bt{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+.main{
+    display: flex;
+}
+.rocket{
+    width: 50%;
+    position: relative;
+    animation: infi 8s ease-in-out;
+}
+@keyframes infi{
+    0%{transform: translateY(0);}
+    50%{transform: translateY(-1000px);}
+    100%{transform: translateY(0);}
+    0%{rotate: 0deg;}
+    50%{rotate: -20deg;}
+    100%{rotate: 0deg;}
+}
+.containertwo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(20deg);
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 1rem;
+}
