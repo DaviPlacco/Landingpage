@@ -13,10 +13,12 @@ body{
     background-size: cover;
     width: 100vw;
     height: 100vh;
+    box-sizing: border-box;
 }    
 header{
     display: flex;
     align-items: center;
+    box-sizing: border-box;
 }
 .cabecalho{
     display: flex;
@@ -31,6 +33,7 @@ header{
     transition: 600ms ease-in-out;
     animation: fade 600ms ease-in-out;
     cursor: pointer;
+    box-sizing: border-box;
 }
 @keyframes fade{
     0%{opacity: 0;}
@@ -58,6 +61,10 @@ ul{
 .menu1{
     transition: 200ms ease-in-out;
     position: relative;
+}
+a{
+    text-decoration: none;
+    color: white;
 }
 .menu1:hover{
     border-bottom: solid 2px white;
@@ -93,6 +100,7 @@ ul{
     gap: 20px;
     margin-left: auto;
     width: 40%;
+    box-sizing: border-box;
 }
 .container .titulo{
     text-align: center;
@@ -178,5 +186,5 @@ a{
     justify-content: center;
     align-items: center;
     color: white;
-    margin-bottom: 1rem;
+
 }
