@@ -68,6 +68,12 @@ ul{
     list-style: none;
     transition: 600ms ease-in-out;
 }
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .menu1{
     transition: 200ms ease-in-out;
     position: relative;
@@ -76,31 +82,47 @@ a{
     text-decoration: none;
     color: white;
 }
-.menu1:hover{
-    border-bottom: solid 2px white;
-    border-radius: 2px;
-    cursor: pointer;
-    color: rgba(255, 255, 255, 0.875);
+.barra{
+    width: 3rem;
+    height: 0.1rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transition: 600ms ease-in-out;
+}
+.menu1:hover .barra{
+    opacity: 1;
 }
 .menu2{
     transition: 200ms ease-in-out;
     position: relative;
 }
-.menu2:hover{
-    border-bottom: solid 2px white;
-    border-radius: 2px;
-    cursor: pointer;
-    color: rgba(255, 255, 255, 0.875);
+.barra2{
+    width: 3rem;
+    height: 0.1rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transition: 600ms ease-in-out;
+}
+.menu2:hover .barra2{
+    opacity: 1;
 }
 .menu3{
     transition: 200ms ease-in-out;
     position: relative;
 }
-.menu3:hover{
-    border-bottom: solid 2px white;
-    border-radius: 2px;
-    cursor: pointer;
-    color: rgba(255, 255, 255, 0.875);
+.barra3{
+    width: 3rem;
+    height: 0.1rem;
+    background-color: white;
+    opacity: 0;
+    transition: 600ms ease-in-out;
+}
+.menu3:hover .barra3{
+    opacity: 1;
 }
 .container{
     display: flex;
