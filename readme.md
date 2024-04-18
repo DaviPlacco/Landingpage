@@ -1,8 +1,8 @@
 # Projeto SpaceX
 
 ## Introdução
-### Este trata-se de um projeto simples baseado em informações captadas da empresa aero-espacial SpaceX, na qual foi reproduzido a seguir uma landpage com as características desta, projeto ainda em desenvolvimento!
-## Introduction This is a simple project based on information collected from the aerospace company SpaceX, in which a landpage with the characteristics of this was reproduced below, project still under development!
+### Este trata-se de um projeto simples baseado em informações captadas da empresa aero-espacial SpaceX, na qual foi reproduzido a seguir uma landingpage com as características desta, projeto ainda em desenvolvimento!
+## Introduction This is a simple project based on information collected from the aerospace company SpaceX, in which a landingpage with the characteristics of this was reproduced below, project still under development!
 
 
 ![Screenshot of the Landpage](images/landpagescreenshot.png)
